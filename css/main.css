@@ -159,13 +159,13 @@ main section img {
   background-color: rgba(216, 245, 250, 0.5); }
 
 nav img {
-  height: 18vh; }
+  height: 16vh; }
   @media (min-width: 768px) {
     nav img {
-      height: 21vh; } }
+      height: 20vh; } }
   @media (min-width: 1024px) {
     nav img {
-      height: 27vh; } }
+      height: 26vh; } }
 
 ul {
   text-align: right; }
