@@ -1,0 +1,60 @@
+#pie{
+	margin-top: 10vh;
+	font-size: $textXxs; 
+
+	@include d-flex (center, center);
+
+	@media (min-width: 768px){
+		font-size: $textSm;
+			}
+			@media (min-width: 1024px){
+				font-size: $textM;
+		}
+}
+
+footer img{
+	width: 8vh;
+	margin: 2vh;
+	@media (min-width: 768px){
+		width: 9.5vh;
+		margin: 2vh;
+			}
+
+		@media (min-width: 1024px){
+			width: 12vh;
+	
+			}
+
+		}
+		
+			footer a img{
+			width: 3.5vh;
+			display: inline-flex;
+			align-content: space-around;
+			@media (min-width: 768px){
+				width: 5vh;
+			}
+
+			@media (min-width: 1024px){
+				width: 6vh;
+	
+			}
+
+			@media (min-width: 1200px){
+				width: 7vh;
+				margin: 3vh;
+
+				}
+
+			}
+					
+					footer ul li{
+						list-style: none;
+						text-decoration: none;
+						text-align: center;
+						text-transform: none;
+							}
+						
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Comuniquese con nosotros enviando un mensaje o escribiendo a nuestro numero de whatsapp por cualquier consulta.">
+	<meta name="keywords" content="contacto, cabañas, alojamiento, turismo, san luis, carpinteria, argentina">
+	<meta name="author" content="Flavia Licropani">
+	<title> Las Cabañitas - Contacto </title>
+	<link rel="shortcut icon" href="../img/favicon.svg">
+	<!-- mi css -->
+	<link class="rounded-circle" rel="stylesheet" href="../css/main.css">
+	<!-- CSS bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">	
+</head>
+<body>
+<div id="div" class="text-center">
+		<a class="text-decoration-none" href="http://www.whatsapp.com" target="_blank">	
+			<p class="mb-0">Contacto 011-5856-5475</p>
+		</a>
+	</div>
+	 <nav id="nav" class="navbar navbar-expand-sm py-0 container-fluid">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+		    <img src="../img/logo.svg" alt="logo de las cabanitas" > 
+			</a>
+      <button class="navbar-toggler me-3" 
+      type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#navbarToggleExternalContent" 
+    aria-controls="navbarToggleExternalContent"
+    aria-expanded="false" 
+    aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+		 <div class="d-flex-md justify-content-end collapse navbar-collapse" id="navbarToggleExternalContent">
+        <ul class="navbar-nav fw-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="../views/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/ubicacion.html">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/contacto.html">Contacto</a>
+          </li>
+        </ul>
+    </div>
+     </div>
+  </nav>
+	<!-- ends nav -->
+	<header class="text-center">
+		<h1 id="h1"> LAS CABAÑITAS </h1>
+		<h3>- Contacto -</h3>
+	</header>
+	<!-- ends header -->
+	<main class="text-bold">
+		<form action="contacto.php">
+			<fieldset class="form">
+				<legend> Información personal </legend>
+				<label for="nombre">Nombre:</label>
+			    <input type="text" name="nombre" placeholder="Nombre">
+			    <label for="apellido"> Apellido: </label>
+			    <input type="text" name="apellido" placeholder="Apellido">
+			    <label for="nacimiento"> Fecha de nacimiento: </label>
+			    <input type="number" name="nacimiento" placeholder="DD-MM-AAAA">
+			    <label for="email"> Email: </label>
+			    <input type="email" name="email" placeholder="ejemplo@mail.com">
+			    
+			    <label class="mt-5" for="mensaje"> Mensaje: </label>
+			    <textarea name="mensaje" id="mensaje"></textarea>
+			    <input class="btn-form mt-3" type="reset" name="Restablecer">
+			    <input class="btn-form mt-3" type="submit" name="Enviar">
+			    </fieldset>
+			
+		</form>
+	</main>
+	<!-- ends main -->
+	
+	<footer id="pie">
+		
+		<ul>
+			<li>
+				<img class="rounded-circle" src="../img/favicon.svg" alt="favicon de las cabanas"></li>
+			<li>Complejo La Belen, Ruta Provincial 1, Km 11</li>
+			<li>Carpintería, San Luis, Argentina</li>
+			<li>mckrywko@gmail.com</li>
+			<li>
+				<a class="text-decoration-none" href="https://wa.me/01158565475" target="_blank" >
+					<img src="../img/whatsapp.svg" alt="logo de whatsapp">
+					</a></li>
+				</ul>
+				
+	</footer>
+	<!-- ends footer -->
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
